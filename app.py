@@ -10,7 +10,7 @@ import os
 
 # 1. CẤU HÌNH TRANG WEB STREAMLIT
 st.set_page_config(
-    page_title="Hệ thống Phát hiện Giao dịch Bất thường",
+    page_title="Hệ thống phát hiện giao dịch bất thường trong KTNB",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
