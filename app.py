@@ -352,7 +352,7 @@ with tab1:
             ),
             legend=dict(x=0.01, y=0.99, bgcolor='rgba(0,0,0,0)'),
             margin=dict(l=20, r=20, t=30, b=20),
-            hovermode='x unified'
+            hovermode='x'  # ĐÃ SỬA LỖI TẠI ĐÂY: Thay 'x unified' thành 'x' khi có trục Y kép
         )
         
         # Vẽ các vùng ngoài giờ (trước 6h và sau 18h)
